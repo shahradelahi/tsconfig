@@ -1,0 +1,38 @@
+{
+  "name": "@shahrad/tsconfig",
+  "version": "0.0.0",
+  "description": "Shared TypeScript config for my projects.",
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "config"
+  ],
+  "homepage": "https://github.com/shahradelahi/tsconfig#readme",
+  "repository": "github:shahradelahi/tsconfig",
+  "license": "MIT",
+  "author": "Shahrad Elahi <shahrad@litehex.com> (https://github.com/shahradelahi)",
+  "type": "module",
+  "exports": "./tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepublishOnly": "pnpm format:check"
+  },
+  "prettier": "@shahrad/prettier-config",
+  "devDependencies": {
+    "@shahrad/prettier-config": "^1.2.2",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  },
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
