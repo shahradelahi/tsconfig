@@ -22,4 +22,3 @@ pnpm i -D @shahrad/tsconfig
 ## License
 
 [MIT](/LICENSE) © [Shahrad Elahi](https://github.com/shahradelahi)
-
