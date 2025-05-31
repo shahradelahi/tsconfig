@@ -35,6 +35,7 @@
     /* Type Checking */
     "strict": true,
     "alwaysStrict": true,
+    "strictNullChecks": true,
     "noImplicitReturns": true,
     "noImplicitOverride": true,
     "noUnusedLocals": true,
