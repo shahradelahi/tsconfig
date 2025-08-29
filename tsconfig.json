@@ -24,7 +24,6 @@
     /* Emit */
     "declaration": true,
     "newLine": "lf",
-    "stripInternal": true,
     "outDir": "${configDir}/dist",
 
     /* Interop Constraints */
